@@ -9,6 +9,6 @@ CREATE TABLE clientes (
 CREATE TABLE productos (
   id_producto INT,
   descripcion VARCHAR(255),
-  precio DECIMAL,
-  esta_activo INT
+  precio DECIMAL(10,2),
+  esta_activo INT  -- 1 = activo, 0 = inactivo
   )
